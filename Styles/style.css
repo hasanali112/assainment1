@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     padding: 174px 68px 115px 706px;
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -178,7 +178,7 @@
 
 /* positve mindset styles */
 .positive {
-    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: 798px;
     width: 1069px;
