@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header style */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 174px 68px 115px 706px;
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title {
+    text-align: right;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    margin: 0px 36px 2px 1px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0px 36px 2px 1px;
+}
+
+.btn-primary {
+    width: 105px;
+    height: 48px;
+    border: none;
+    color: rgb(13, 120, 241);
+    border-radius: 3px;
+    margin: 10px 2px 2px 285px;
+}
+
+
+/* my previous failure style*/
+.failure-container {
+    margin: 130px 210px;
+}
+
+.failure {
+    display: flex;
+    gap: 100px;
+}
+
+/* failure image style */
+.failure img {
+    width: 410px;
+    height: 520px;
+}
+
+/* failure title-container style */
+.title-container {
+    margin-top: 171px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.failure li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+/* my-plan section styles */
+
+.my-plan-title {
+    text-align: center;
+    margin-bottom: 35px;
+
+
+}
+
+/* plan container */
+.my-plan-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 131px;
+    text-align: center;
+}
+
+.web-dev-title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+.web-dev-descrption {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* our service */
+
+.sevice-container-title {
+    margin: 105px 117px 38px 473px;
+}
+
+.service-package {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 44px 24px;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    height: 280px;
+}
+
+.package ol {
+    text-align: center;
+}
+
+.package ol li {
+    list-style: none;
+}
+
+.package-title {
+    background: #ddd;
+    height: 41px;
+    width: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font: 2em sans-serif;
+}
+
+.package-description {
+    margin: 23px 26px;
+    padding: 8px 2px;
+}
+
+.button {
+    margin: 49px -3px 0px 2px;
+    width: 104px;
+    height: 31px;
+    background: #f1c40f;
+    border: none;
+    font: 1.2em sans-serif;
+    cursor: pointer;
+}
+
+
+/* positve mindset styles */
+.positive {
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 798px;
+    width: 1069px;
+    height: 223px;
+    margin: 94px 196px;
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    padding: 28px 574px 4px 27px;
+    align-items: left;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    width: 90px;
+    height: 37px;
+    border: none;
+    color: rgb(13, 120, 241);
+    border-radius: 3px;
+    margin: 0px 3px 12px 27px;
+}
+
+
