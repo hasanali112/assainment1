@@ -10,37 +10,40 @@
     justify-content: center;
     align-items: center;
     padding: 174px 68px 115px 706px;
-    background-image: url(../images/banner/banner3.png);
+    background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header-title {
+    margin-bottom: 24px;
     text-align: right;
     font-weight: 700;
-    font-size: 55px;
-    margin-bottom: 20px;
-    color: #FFFFFF;
-    margin: 0px 36px 2px 1px;
+    font-size: 65px;
+    line-height: 75px;
+    color: #151414;
 }
 
 .header-description {
+    margin: 0px 1px 2px 1px;
+    text-align: right;
     font-weight: 400;
     font-size: 15px;
     line-height: 26px;
-    color: #FFFFFF;
-    text-align: right;
-    margin: 0px 36px 2px 1px;
+    color: #444343;
 }
 
 .btn-primary {
     width: 105px;
     height: 48px;
     border: none;
-    color: rgb(13, 120, 241);
+    color: #FFFFFF;
     border-radius: 3px;
     margin: 10px 2px 2px 285px;
+    margin: 9px 0px 2px 351px;
+    background-color: #F15B22;
 }
+
 
 
 /* my previous failure style*/
@@ -143,6 +146,7 @@
 
 .package ol {
     text-align: center;
+    padding: 0 55px;
 }
 
 .package ol li {
@@ -202,6 +206,86 @@
     color: rgb(13, 120, 241);
     border-radius: 3px;
     margin: 0px 3px 12px 27px;
+}
+
+
+/* footer style */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 1230px;
+    height: 339px;
+}
+
+/* future section */
+.subcribe {
+    margin: 3px 59px 122px 3px;
+}
+
+
+.future-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    margin: 40px 171px 6px 117px;
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 2px 178px 2px 64px;
+    margin: 0 33px 0 53px;
+}
+
+.email-info{
+    color: #FFFFFF;
+    margin: 14px 115px;
+}
+
+.footer-img{
+    margin: 14px 103px;
+   
+}
+
+.footer-img img{
+    padding: 0 6px;
+}
+
+/* subcribe section */
+.subcribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 2px 211px 2px 0px;
+    margin: 79px 10px 0px 5px;
+}
+
+#email {
+    margin-top: 10px;
+    margin-left: 6px;
+    height: 16px;
+    width: 224px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    background-color: #000;
+
+}
+
+.btn-third {
+    width: 82px;
+    height: 35px;
+    border: none;
+    color: rgb(13, 120, 241);
+    border-radius: 3px;
+    margin: 11px 1px 9px 8px;
 }
 
 
